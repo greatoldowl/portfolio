@@ -1,0 +1,7 @@
+apache-airflow>=2.8
+apache-airflow-providers-http>=4.10
+clickhouse-connect>=0.7
+openpyxl>=3.1
+pandas>=2.2
+pendulum>=3.0
+requests>=2.31

@@ -1,16 +1,8 @@
-"""Classification baseline: жив(а) vs погиб(ла).
+"""Binary classification baseline: жив(а) vs погиб(ла).
 
-Refactor of `classificstion_dead_alive.ipynb` (sic) into a single
-function that returns a trained sklearn Pipeline and a metrics dict.
-
-Improvements over the original notebook:
-  - no hard-coded local CSV paths;
-  - features are passed in explicitly, no implicit drops;
-  - categorical columns go through OneHotEncoder, not LabelEncoder
-    (LabelEncoder is for the target, not for features);
-  - models are wrapped in Pipelines with proper imputation and scaling;
-  - class imbalance is handled via class_weight='balanced'
-    instead of arbitrary downsampling to 2000 rows.
+Trains several sklearn models on the same train/test split and returns
+a list of `ClassificationResult` objects with ROC-AUC, F1 and a
+classification report.
 """
 
 from __future__ import annotations

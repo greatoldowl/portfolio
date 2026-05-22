@@ -1,4 +1,4 @@
-"""Command-line pipeline for the LizaAlert dataset.
+"""Command-line pipeline for the search-and-rescue dataset.
 
 Usage:
     python -m scripts.run_pipeline data/filled_all_data.csv \

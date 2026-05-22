@@ -1,10 +1,9 @@
-"""Robust extraction of status, gender and age from raw LizaAlert posts.
+"""Extraction of status, gender and age from raw search-and-rescue posts.
 
-This is a cleaned-up version of the original notebooks
-`нормальный разделитель.ipynb` and `gender_processing.ipynb` from the
-summer-school project. The regular expressions are consolidated, the
-status / gender vocabularies are centralised, and everything is exposed
-as small pure functions.
+Three groups of helpers:
+  - status detection from free text via regex;
+  - gender normalisation to a unified vocabulary;
+  - age parsing from heterogeneous representations.
 """
 
 from __future__ import annotations

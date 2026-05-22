@@ -1,9 +1,8 @@
-"""Loading and normalisation of the LizaAlert dataset.
+"""Loading and normalisation of the search-and-rescue dataset.
 
-The original CSV in the summer-school project mixed encodings (utf-8 vs
-cp1251), used inconsistent gender labels and stored `age` as anything
-from a single int to a Python-list-as-string. This module wraps all of
-that mess into one tidy loader.
+The raw CSV mixes encodings (utf-8 vs cp1251), uses inconsistent gender
+labels and stores `age` as anything from a single int to a Python-list-
+as-string. This module wraps all of that into one tidy loader.
 """
 
 from __future__ import annotations

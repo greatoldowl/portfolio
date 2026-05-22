@@ -1,8 +1,7 @@
-"""Plots for the LizaAlert dataset.
+"""Plots for the search-and-rescue dataset.
 
-Three figures from the original project, refactored into reusable
-functions that return a matplotlib Figure instead of calling plt.show()
-in the middle of a notebook.
+Each public function returns a `matplotlib.figure.Figure`, making it
+trivial to either display interactively or save to a file.
 """
 
 from __future__ import annotations
@@ -148,7 +147,7 @@ def demographic_pyramid(
     ax.axvline(0, color="black", linewidth=0.8)
     ax.set_xlabel("Кол-во (← женщины · мужчины →)")
     ax.set_ylabel("Возраст")
-    ax.set_title("Демографическая пирамида LizaAlert")
+    ax.set_title("Демографическая пирамида")
     ax.legend(loc="lower right", fontsize=9)
     fig.tight_layout()
     return fig

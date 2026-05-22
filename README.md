@@ -10,80 +10,79 @@
 
 **Языки и базы данных**
 - SQL (PostgreSQL, ClickHouse) — CTE, оконные функции, индексы, партиционирование, EXPLAIN ANALYZE
-- - Python — pandas, numpy, scikit-learn, matplotlib
- 
-  - **BI и визуализация**
-  - - Power BI (DAX, моделирование данных)
-    - - Yandex DataLens
-      - - Apache Superset
-       
-        - **Data Engineering**
-        - - Apache Airflow — оркестрация ETL
-          - - Проектирование витрин данных и слоёв агрегации
-            - - Миграции PostgreSQL → ClickHouse, OLAP, материализованные представления
-              - - Data Quality checks
-               
-                - **ML**
-                - - Логистическая регрессия, деревья решений, бустинги
-                  - - Метрики: ROC-AUC, precision/recall, F1, confusion matrix
-                    - - Feature engineering под финансовые данные
-                     
-                      - **Прочее**
-                      - - Git, MS Excel (продвинутый), Groovy
-                        - - Математическая статистика, линейная алгебра, теория вероятностей
-                         
-                          - ---
+- Python — pandas, numpy, scikit-learn, matplotlib
 
-                          ## 💼 Опыт работы
+**BI и визуализация**
+- Power BI (DAX, моделирование данных)
+- Yandex DataLens
+- Apache Superset
 
-                          ### Альфастат — BI-аналитик · ноябрь 2025 — настоящее время
-                          - Спроектировал и внедрил ETL-процессы для интеграции данных из учётных систем, БД и внешних файлов в единое хранилище.
-                          - - Отвечаю за сквозную аналитику (операционную, HR, финансовую) — от сбора требований до дашбордов.
-                            - - Разработал систему метрик и KPI для ключевых подразделений.
-                              - - Построил предсказательные модели: прогноз выручки, текучести персонала, загрузки ресурсов.
-                                - - Провёл миграцию хранилища PostgreSQL → ClickHouse: ускорение обновления материализованных представлений в ~4 раза, снижение времени отрисовки дашбордов.
-                                  - - Разрабатываю дашборды в Power BI / Yandex DataLens / Apache Superset.
-                                    - - Внедрил автоматические Data Quality checks.
-                                     
-                                      - **Стек:** PostgreSQL, ClickHouse, Python (pandas, numpy), Power BI, DataLens, Superset, DAX, Airflow, Git.
-                                     
-                                      - ### НИФИ — стажёр аналитик данных · август 2025 — ноябрь 2025
-                                      - - Работал с датасетом ~600 млн строк бухгалтерской и финансовой отчётности российских компаний.
-                                        - - Оптимизировал тяжёлые SQL-запросы (CTE, оконные функции, индексы, партиционирование, EXPLAIN ANALYZE).
-                                          - - Делал предобработку и feature engineering в Python (pandas, numpy).
-                                            - - Обучал ML-модели прогнозирования банкротства компаний (sklearn): logreg, деревья, бустинги; сравнивал по ROC-AUC, precision/recall, F1.
-                                              - - Готовил витрины данных для BI-отчётов и входные наборы для ML.
-                                               
-                                                - **Стек:** SQL, Python (pandas, numpy, sklearn, matplotlib), Git.
-                                               
-                                                - ---
+**Data Engineering**
+- Apache Airflow — оркестрация ETL
+- Проектирование витрин данных и слоёв агрегации
+- Миграции PostgreSQL → ClickHouse, OLAP, материализованные представления
+- Data Quality checks
 
-                                                ## 🎓 Образование и курсы
+**ML**
+- Логистическая регрессия, деревья решений, бустинги
+- Метрики: ROC-AUC, precision/recall, F1, confusion matrix
+- Feature engineering под финансовые данные
 
-                                                - **НИЯУ МИФИ**, Москва — Материаловедение и технология новых материалов (3 курса). Сильная математическая база: линейная алгебра, мат. анализ, теория вероятностей и мат. статистика.
-                                                - - **Deep Learning School, ФПМИ МФТИ** — 2020.
-                                                  - - **Летняя школа, мастерская анализа текстовых данных** — 2025.
-                                                   
-                                                    - ---
+**Прочее**
+- Git, MS Excel (продвинутый), Groovy
+- Математическая статистика, линейная алгебра, теория вероятностей
 
-                                                    ## 📂 Ключевые проекты
+---
 
-                                                    | Проект | Описание | Стек |
-                                                    |---|---|---|
-                                                    | [ETL Pipeline на Airflow](./etl-pipeline-airflow) | Оркестрация интеграции данных из разных источников в единое хранилище | Airflow, PostgreSQL, Python |
-                                                    | [Миграция PostgreSQL → ClickHouse](./postgres-to-clickhouse-migration) | Перевод на OLAP, материализованные представления, ускорение в ~4 раза | ClickHouse, PostgreSQL, SQL |
-                                                    | [Прогнозирование банкротства компаний](./bankruptcy-prediction-ml) | ML-модели на бухгалтерской отчётности (~600 млн строк) | Python, sklearn, SQL |
-                                                    | [SQL Optimization Cases](./sql-optimization) | Рефакторинг запросов: CTE, оконные функции, EXPLAIN ANALYZE | PostgreSQL, ClickHouse |
-                                                    | [BI Dashboards](./bi-dashboards) | Дашборды для сквозной аналитики (операционка, HR, финансы) | Power BI, DataLens, Superset, DAX |
-                                                    | [NLP — Летняя школа](./nlp-summer-school) | Проект мастерской анализа текстовых данных | Python, NLP |
+## 💼 Опыт работы
 
-                                                    ---
+### Альфастат — BI-аналитик · ноябрь 2025 — настоящее время
+- Спроектировал и внедрил ETL-процессы для интеграции данных из учётных систем, БД и внешних файлов в единое хранилище.
+- Отвечаю за сквозную аналитику (операционную, HR, финансовую) — от сбора требований до дашбордов.
+- Разработал систему метрик и KPI для ключевых подразделений.
+- Построил предсказательные модели: прогноз выручки, текучести персонала, загрузки ресурсов.
+- Провёл миграцию хранилища PostgreSQL → ClickHouse: ускорение обновления материализованных представлений в ~4 раза, снижение времени отрисовки дашбордов.
+- Разрабатываю дашборды в Power BI / Yandex DataLens / Apache Superset.
+- Внедрил автоматические Data Quality checks.
 
-                                                    ## 📫 Контакты
+**Стек:** PostgreSQL, ClickHouse, Python (pandas, numpy), Power BI, DataLens, Superset, DAX, Airflow, Git.
 
-                                                    - ✉️ Email: **tiberzet@yandex.ru**
-                                                    - - 💬 Telegram: [**@GreatOldOwl**](https://t.me/GreatOldOwl)
-                                                      - - 💻 GitHub: [**@greatoldowl**](https://github.com/greatoldowl)
-                                                       
-                                                        - > Открыт к удалённой работе и интересным data-проектам.
-                                                          > 
+### НИФИ — стажёр аналитик данных · август 2025 — ноябрь 2025
+- Работал с датасетом ~600 млн строк бухгалтерской и финансовой отчётности российских компаний.
+- Оптимизировал тяжёлые SQL-запросы (CTE, оконные функции, индексы, партиционирование, EXPLAIN ANALYZE).
+- Делал предобработку и feature engineering в Python (pandas, numpy).
+- Обучал ML-модели прогнозирования банкротства компаний (sklearn): logreg, деревья, бустинги; сравнивал по ROC-AUC, precision/recall, F1.
+- Готовил витрины данных для BI-отчётов и входные наборы для ML.
+
+**Стек:** SQL, Python (pandas, numpy, sklearn, matplotlib), Git.
+
+---
+
+## 🎓 Образование и курсы
+
+- **НИЯУ МИФИ**, Москва — Материаловедение и технология новых материалов (3 курса). Сильная математическая база: линейная алгебра, мат. анализ, теория вероятностей и мат. статистика.
+- **Deep Learning School, ФПМИ МФТИ** — 2020.
+- **Летняя школа, мастерская анализа текстовых данных** — 2025.
+
+---
+
+## 📂 Ключевые проекты
+
+| Проект | Описание | Стек |
+|---|---|---|
+| [ETL Pipeline на Airflow](./etl-pipeline-airflow) | Оркестрация интеграции данных из разных источников в единое хранилище | Airflow, PostgreSQL, Python |
+| [Миграция PostgreSQL → ClickHouse](./postgres-to-clickhouse-migration) | Перевод на OLAP, материализованные представления, ускорение в ~4 раза | ClickHouse, PostgreSQL, SQL |
+| [Прогнозирование банкротства компаний](./bankruptcy-prediction-ml) | ML-модели на бухгалтерской отчётности (~600 млн строк) | Python, sklearn, SQL |
+| [SQL Optimization Cases](./sql-optimization) | Рефакторинг запросов: CTE, оконные функции, EXPLAIN ANALYZE | PostgreSQL, ClickHouse |
+| [BI Dashboards](./bi-dashboards) | Дашборды для сквозной аналитики (операционка, HR, финансы) | Power BI, DataLens, Superset, DAX |
+| [NLP — Летняя школа](./nlp-summer-school) | Проект мастерской анализа текстовых данных | Python, NLP |
+
+---
+
+## 📫 Контакты
+
+- ✉️ Email: **tiberzet@yandex.ru**
+- 💬 Telegram: [**@GreatOldOwl**](https://t.me/GreatOldOwl)
+- 💻 GitHub: [**@greatoldowl**](https://github.com/greatoldowl)
+
+> Открыт к удалённой работе и интересным data-проектам.
